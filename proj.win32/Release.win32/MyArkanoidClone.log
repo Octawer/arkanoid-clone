@@ -1,0 +1,61 @@
+﻿Compilación iniciada a las 15/10/2014 18:32:09.
+     1>Proyecto "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\MyArkanoidClone.vcxproj" en el nodo 2 (build destinos).
+     1>InitializeBuildStatus:
+         Aplicando tarea Touch a "Release.win32\MyArkanoidClone.unsuccessfulbuild".
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\cocos2dx" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\cocos2dx\include" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\external" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\CocosDenshion\include" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\extensions" /I"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\Classes" /I..\Classes /I.. /I. /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release.win32\\" /Fd"Release.win32\vc100.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp AltBlockGenerator.cpp Ball.cpp Block.cpp BlockGeneratorFactory.cpp Booster.cpp Bullet.cpp GameOverScene.cpp IBlockGenerator.cpp MenuScene.cpp Pad.cpp GameScene.cpp main.cpp RandomBlockGenerator.cpp SimpleBlockGenerator.cpp
+         AppDelegate.cpp
+         AltBlockGenerator.cpp
+         Ball.cpp
+         Block.cpp
+         BlockGeneratorFactory.cpp
+         Booster.cpp
+         Bullet.cpp
+         GameOverScene.cpp
+         IBlockGenerator.cpp
+         MenuScene.cpp
+         Pad.cpp
+         GameScene.cpp
+         main.cpp
+         RandomBlockGenerator.cpp
+     1>RandomBlockGenerator.cpp(21): warning C4800: 'int' : forzando el valor a bool 'true' o 'false' (advertencia de rendimiento)
+         SimpleBlockGenerator.cpp
+       PreLinkEvent:
+         if not exist "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\" mkdir "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\"
+         xcopy /Y /Q "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\"
+         :VCEnd
+         2 archivo(s) copiado(s)
+       Link:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\MyArkanoidClone.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Release.win32\MyArkanoidClone.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\MyArkanoidClone.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\MyArkanoidClone.lib" /MACHINE:X86 Release.win32\VisibleRect.obj
+         Release.win32\AppDelegate.obj
+         Release.win32\AltBlockGenerator.obj
+         Release.win32\Ball.obj
+         Release.win32\Block.obj
+         Release.win32\BlockGeneratorFactory.obj
+         Release.win32\Booster.obj
+         Release.win32\Bullet.obj
+         Release.win32\GameOverScene.obj
+         Release.win32\IBlockGenerator.obj
+         Release.win32\MenuScene.obj
+         Release.win32\Pad.obj
+         Release.win32\GameScene.obj
+         Release.win32\main.obj
+         Release.win32\RandomBlockGenerator.obj
+         Release.win32\SimpleBlockGenerator.obj
+         "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\libcocos2d.lib"
+         "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\libCocosDenshion.lib"
+         "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\libExtensions.lib"
+         "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\libchipmunk.lib"
+         Generando código
+         Generación de código finalizada
+         MyArkanoidClone.vcxproj -> C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\MyArkanoidClone.exe
+       Manifest:
+         C:\Program Files\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\Release.win32\MyArkanoidClone.exe;#1" /manifest Release.win32\MyArkanoidClone.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Se eliminará el archivo "Release.win32\MyArkanoidClone.unsuccessfulbuild".
+         Aplicando tarea Touch a "Release.win32\MyArkanoidClone.lastbuildstate".
+     1>Compilación del proyecto terminada "C:\Program Files\Cocos2D-X\cocos2d-x-2.2.5\projects\MyArkanoidClone\proj.win32\MyArkanoidClone.vcxproj" (build destinos).
+
+Compilación correcta.
+
+Tiempo transcurrido 00:00:23.26

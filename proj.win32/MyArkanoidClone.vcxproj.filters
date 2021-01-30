@@ -1,0 +1,123 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Images">
+      <UniqueIdentifier>{43edbfa3-5ddf-4d52-96f4-26e2e8e73664}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Fonts">
+      <UniqueIdentifier>{ab4f02f2-09d8-41f9-81ee-f8f693b3dd43}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{ff440342-e5f1-4220-817f-f92391c7015a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\samples\Cpp\TestCpp\Classes\VisibleRect.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Ball.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Block.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Pad.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="IBlockGenerator.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="SimpleBlockGenerator.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="BlockGeneratorFactory.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="RandomBlockGenerator.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Booster.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOverScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="AltBlockGenerator.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\samples\Cpp\TestCpp\Classes\VisibleRect.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Ball.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Block.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Pad.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="BlockGeneratorFactory.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="SimpleBlockGenerator.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="IBlockGenerator.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="RandomBlockGenerator.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Booster.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="GameOverScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="AltBlockGenerator.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

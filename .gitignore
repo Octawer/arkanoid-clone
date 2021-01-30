@@ -30,3 +30,9 @@
 *.exe
 *.out
 *.app
+
+# Lib folder
+/lib
+
+# Log files
+*.tlog
